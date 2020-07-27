@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portal-web-component-app"
+    }
+  },
+  "defaultProject": "portal-web-component-app",
+  "cli": {
+    "analytics": false
+  }
 }
