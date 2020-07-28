@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PortalWebComponentApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.11/core.min.js" integrity="sha256-PsVx54sumjXGPcguQ2vmeiivxx8Xxig7wAjq52Yx0Qw=" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.8.26/zone.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.4.3/custom-elements-es5-adapter.js"></script> -->
+<link rel="stylesheet" href="styles.09e2c710755c8867a460.css"></head>
+<body>
+  <webcomponent-app id="app" title="Web Component" message="something"></webcomponent-app>
+  <script>
+    const app = document.getElementById('app');
+    app.addEventListener('api',(message) => console.log(message.detail))
+  </script>
+<script src="webcomponent.js" defer></script></body>
+</html>
+
